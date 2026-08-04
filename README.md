@@ -11,5 +11,5 @@ Server = https://linxira-packages.github.io/packages/$arch
 SigLevel = Required DatabaseOptional
 ```
 
-- Signing key fingerprint: `7CE0D31F4A71657AD66B7854BFF6AA69F55A30B8`
-  (signing subkey `31156EC1A740B2884F8110235EF193D3392B8D7B`)
+- Signing key fingerprint: `E1A4155F457D1481CA85EE6BF9D157739534BC29`
+  (signing subkey `D477286C296F1E1C35735E52B22DF3E636274191`)
