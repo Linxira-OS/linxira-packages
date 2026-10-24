@@ -121,3 +121,8 @@ SigLevel = Required DatabaseOptional
 - 不带包名参数时拉取完整的 `build-direct-iso.sh` 产物集合；给定包名则只拉取子集。
 - 每个包先下载为 `<name>.part`，对照仓库数据库中的 `%CSIZE%` 与 `%SHA256SUM%`
   校验通过后才移动到位，并带重试，因此静默截断的下载不会污染构建。
+
+## License
+
+本仓库分发二进制包，源码提供见 [`SOURCE-OFFER`](SOURCE-OFFER)，
+逐镜像声明见 [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md)。
