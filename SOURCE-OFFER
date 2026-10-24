@@ -1,0 +1,16 @@
+SOURCE OFFER — Linxira OS package repository
+
+本仓库分发 Linxira OS 的预编译包（含 GPL/AGPL/LGPL 覆盖的二进制）。按 GPLv3 §6 /
+AGPLv3 §13 / LGPLv3 §4，对应源码的获取方式：
+
+- Linxira 自有/派生包：`https://github.com/Linxira-OS/<repo>`，构建使用精确
+  tag/commit（见各包 PKGBUILD 的 `_commit` 与 `pkgver`；打包配方在
+  `Linxira-OS/packages`）。
+- 修改过的上游：Calamares 补丁见 `Linxira-OS/packages/packages/calamares/`；
+  Shelly 补丁见包内 `/usr/share/doc/shelly/UPSTREAM.md`。
+- Arch 基础包：`https://archlinux.org/packages/` 对应版本，或
+  `https://archive.archlinux.org/`。
+- 书面请求：admin@linxira.org（注明包名与版本）。
+
+每个镜像根下另有机器生成的 `usr/share/doc/linxira/{THIRD-PARTY-NOTICES.md,
+SOURCE-OFFER,license-manifest.json}`，与镜像内容一一对应。
